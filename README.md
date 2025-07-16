@@ -13,3 +13,6 @@ contains information about the user, and information about each game that they p
 information, my idea is to create a website that takes the name of a user on Jstris and have the 
 website tell them important information about each of their matches and what they can possibly do 
 to get better at Tetris.</p>
+
+<h2>Repository Structure</h2>
+<p><i>TetrisHelper</i> is the folder that contains all files related to this project. <br> &ensp; <i>MemberIntroductions</i> contains all of the developer's introductions. <br> &emsp; <i>Main</i> contains all of the source code for TetrisHelper.</p>
