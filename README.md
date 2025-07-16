@@ -1,2 +1,2 @@
 # 3140ProjectsRepo
-HW1
+Our projects are in this repo.
