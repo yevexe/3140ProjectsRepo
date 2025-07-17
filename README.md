@@ -7,17 +7,31 @@
 	<li>Arsen — Researcher | <a href="https://github.com/YaArsen">GitHub </a> | <a href= "https://github.com/yevexe/3140ProjectsRepo/blob/main/TetrisHelper/MemberIntroductions/Arsen/index.html">Arsen's Introduction</a></li>
 </ul>
 
-<h2>Project Idea (First Draft):</h2>
-<p>A popular website used for playing Tetris over the browser named Jstris contains a public API that 
-contains information about the user, and information about each game that they play. Using this 
-information, my idea is to create a website that takes the name of a user on Jstris and have the 
-website tell them important information about each of their matches and what they can possibly do 
-to get better at Tetris.</p>
+<h2>Project Idea <b>(v.0.1.0)</b>:</h2>
+<p>Jstris is a fast-paced, browser-based Tetris game with a competitive community and a public API that tracks detailed user and gameplay data. This project transforms that data into a personalized analytics tool designed to help players better understand and improve their performance.
+
+By entering a Jstris username, users can instantly view a streamlined overview of their key stats and gameplay history. The site goes beyond surface-level metrics by analyzing deeper trends—such as progression in personal best times, consistency and peaks in attacks per minute, average game duration, win rate, and daily activity habits. It also includes the ability to compare two players side by side to uncover patterns, similarities, and differences in their styles of play. The goal is to provide clear, actionable insights that can help any player, from casual to competitive, become more aware of their habits and make meaningful improvements.</p>
 
 <h2>Repository Structure</h2>
 <p>
 	<b>TetrisHelper</b> is the folder that contains all files related to this project.<br> 
 	<b>Main</b> contains all of the source code for TetrisHelper.<br>
 	<b>MemberIntroductions</b> contains all of the developer's introductions. <br>
-	
+
+ <h2>Features Roadmap</h2>
+ <ol>
+	 <li>Extraction of key metrics on one page for a convenient view for the user.</li>
+	 <li>Ability to analyze such data and extract additional metrics such as:</li>
+	 	<ul>
+			<li>Player's Best Results Progression Graph</li>
+			<li>APM (Attacks Per Minute) Consistency</li>
+			<li>Peak APM</li>
+			<li>Average Game time</li>
+			<li>Win Rate</li>
+			<li>Average amount of games per day</li>
+		</ul>
+	 <li>Ability to compare the results between two users to see if there're any 
+		 similarities/differences in gaming patterns for the purpose of the 
+		 improvement of personal score or self analysis.</li>
+ </ol>
 </p>
