@@ -17,6 +17,7 @@ to get better at Tetris.</p>
 <h2>Repository Structure</h2>
 <p>
 	<b>TetrisHelper</b> is the folder that contains all files related to this project.<br> 
-	<b>MemberIntroductions</b> contains all of the developer's introductions. <br>
 	<b>Main</b> contains all of the source code for TetrisHelper.
+	<b>MemberIntroductions</b> contains all of the developer's introductions. <br>
+	
 </p>
