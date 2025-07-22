@@ -13,16 +13,16 @@
 
 By entering a Jstris username, users can instantly view a streamlined overview of their key stats and gameplay history. The site goes beyond surface-level metrics by analyzing deeper trends—such as progression in personal best times, consistency and peaks in attacks per minute, average game duration, win rate, and daily activity habits. It also includes the ability to compare two players side by side to uncover patterns, similarities, and differences in their styles of play. The goal is to provide clear, actionable insights that can help any player, from casual to competitive, become more aware of their habits and make meaningful improvements.</p>
 
-<h2>Repository Structure</h2>
 <p>
-	<b>TetrisHelper/</b> is the folder that contains all files related to this project.<br> 
+	<h2>Repository Structure</h2>
 	<pre>
-	|-- <b>&nbsp;Main/</b> contains all of the source code for TetrisHelper.<br>
-		|--<b>&nbsp;APIScripts.js/</b> JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.<br>
-		|--<b>&nbsp;css-style-resetter.css/</b> CSS code to help give further control to how the browser renders the website.<br>
-		|--<b>&nbsp;index.html/</b> HTML structure of the front-page of Tetris Helper.<br>
-		|--<b>&nbsp;style.css/</b> Styling for the HTML file of the front-page.<br>
-	|-- <b>&nbsp;MemberIntroductions/</b> contains all of the developer's introductions. <br>
+ 	<b>TetrisHelper/</b> is the folder that contains all files related to this project.<br>
+		|-- <b>&nbsp;Main/</b> contains all of the source code for TetrisHelper.<br>
+			|--<b>&nbsp;APIScripts.js/</b> JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.<br>
+			|--<b>&nbsp;css-style-resetter.css/</b> CSS code to help give further control to how the browser renders the website.<br>
+			|--<b>&nbsp;index.html/</b> HTML structure of the front-page of Tetris Helper.<br>
+			|--<b>&nbsp;style.css/</b> Styling for the HTML file of the front-page.<br>
+		|-- <b>&nbsp;MemberIntroductions/</b> contains all of the developer's introductions. <br>
 	</pre>
 
  <h2>Features Roadmap</h2>
