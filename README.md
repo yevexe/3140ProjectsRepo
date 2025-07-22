@@ -16,13 +16,13 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 <p>
 	<h2>Repository Structure</h2>
 	<pre>
- 	<b>TetrisHelper/</b> //is the folder that contains all files related to this project.
-		|-- <b>&nbsp;Main/</b> //contains all of the source code for TetrisHelper.
-			|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.
-			|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
-			|--<b>&nbsp;index.html</b> //HTML structure of the front-page of Tetris Helper.
-			|--<b>&nbsp;style.css</b> //Styling for the HTML file of the front-page.
-		|-- <b>&nbsp;MemberIntroductions/</b> //contains all of the developer's introductions.
+<b>TetrisHelper/</b> //is the folder that contains all files related to this project.
+	|-- <b>&nbsp;Main/</b> //contains all of the source code for TetrisHelper.
+		|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.
+		|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
+		|--<b>&nbsp;index.html</b> //HTML structure of the front-page of Tetris Helper.
+		|--<b>&nbsp;style.css</b> //Styling for the HTML file of the front-page.
+	|-- <b>&nbsp;MemberIntroductions/</b> //contains all of the developer's introductions.
 	</pre>
 
  <h2>Features Roadmap</h2>
