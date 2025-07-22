@@ -15,9 +15,9 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 
 <h2>Repository Structure</h2>
 <p>
-	<b>TetrisHelper</b> is the folder that contains all files related to this project.<br> 
-	<b>Main</b> contains all of the source code for TetrisHelper.<br>
-	<b>MemberIntroductions</b> contains all of the developer's introductions. <br>
+	<b>TetrisHelper/</b> is the folder that contains all files related to this project.<br> 
+	|-- <b>Main/</b> contains all of the source code for TetrisHelper.<br>
+	|-- <b>MemberIntroductions/</b> contains all of the developer's introductions. <br>
 
  <h2>Features Roadmap</h2>
  <ol>
