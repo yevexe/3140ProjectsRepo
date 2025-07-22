@@ -16,7 +16,7 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 <p>
 	<h2>Repository Structure</h2>
 	<pre>
- 	<b>TetrisHelper/</b> /*is the folder that contains all files related to this project.
+ 	<b>TetrisHelper/</b> //is the folder that contains all files related to this project.
 		|-- <b>&nbsp;Main/</b> //contains all of the source code for TetrisHelper.
 			|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.
 			|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
