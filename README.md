@@ -27,7 +27,7 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 
  <h2>Features Roadmap</h2>
  <ol>
-	 <li>Extraction of key metrics on one page for a convenient view for the user.</li>
+	 <li>Extraction of key metrics on one page for a convenient view for the user. (DONE) </li>
 	 <li>Ability to analyze such data and extract additional metrics such as:</li>
 	 	<ul>
 			<li>Player's Best Results Progression Graph</li>
