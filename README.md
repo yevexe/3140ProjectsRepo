@@ -22,9 +22,9 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 		|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.
 		|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
 		|--<b>&nbsp;index.html</b> //HTML structure of the front-page of Tetris Helper.
-		|--<b>&nbsp;style.css</b> //Styling for the HTML file of the front-page.
-		
+		|--<b>&nbsp;style.css</b> //Styling for the HTML file of the front-page. 
 	</pre>
+
 
  <h2>Features Roadmap</h2>
  <ol>
