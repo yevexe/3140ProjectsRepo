@@ -19,7 +19,9 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 <b>TetrisHelper/</b> //is the folder that contains all files related to this project.
 	|-- <b>&nbsp;Main/</b> //contains all of the source code for TetrisHelper.
 		|--<b>&nbsp;MemberIntroductions/</b> //Folder that contains all of the developer's introductions.
-		|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to Jstris's API and handles pushing that info to the front end.
+		|--<b>&nbsp;api/</b> //Folder that contains all of the scripts that relate to the backend.
+			|--<b>&nbsp;proxy.js</b> //JavaScript script that handles API calls to Jstris.
+		|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to our proxy and handles everything that relates to the front-end.
 		|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
 		|--<b>&nbsp;index.html</b> //HTML structure of the front-page of Tetris Helper.
 		|--<b>&nbsp;style.css</b> //Styling for the HTML file of the front-page. 
