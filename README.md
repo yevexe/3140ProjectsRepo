@@ -21,6 +21,9 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 		|--<b>&nbsp;MemberIntroductions/</b> //Folder that contains all of the developer's introductions.
 		|--<b>&nbsp;api/</b> //Folder that contains all of the scripts that relate to the backend.
 			|--<b>&nbsp;proxy.js</b> //JavaScript script that handles API calls to Jstris.
+			|--<b>&nbsp;backendProxy.js</b> //JavaScript script that handles API calls back to the database.
+			|--<b>&nbsp;backend.js</b> //JavaScript script that handles all database API calls.
+			|--<b>&nbsp;leaderboardModel.js</b> //JavaScript script that creates the leaderboard.sqlite database and puts it with that specific schema.
 		|--<b>&nbsp;APIScripts.js</b> //JavaScript scripts that handle API calls to our proxy and handles everything that relates to the front-end.
 		|--<b>&nbsp;css-style-resetter.css</b> //CSS code to help give further control to how the browser renders the website
 		|--<b>&nbsp;index.html</b> //HTML structure of the front-page of Tetris Helper.
