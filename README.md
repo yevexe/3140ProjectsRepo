@@ -31,23 +31,7 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 	</pre>
 
 
- <h2>Features Roadmap</h2>
- <ol>
-	 <li>Extraction of key metrics on one page for a convenient view for the user. (DONE) </li>
-	 <li>Ability to analyze such data and extract additional metrics such as:</li>
-	 	<ul>
-			<li>Player's Best Results Progression Graph</li>
-			<li>APM (Attacks Per Minute) Consistency</li>
-			<li>Peak APM</li>
-			<li>Average Game time</li>
-			<li>Win Rate</li>
-			<li>Average amount of games per day</li>
-		</ul>
-	 <li>Ability to compare the results between two users to see if there're any 
-		 similarities/differences in gaming patterns for the purpose of the 
-		 improvement of personal score or self analysis.</li>
- </ol>
-</p>
+
 
 <h1>🚀 TetrisHelper – Local Installation &amp; Setup Guide</h1>
   <p class="lead">Convert of your original instructions into clean, copy‑pastable HTML.</p>
