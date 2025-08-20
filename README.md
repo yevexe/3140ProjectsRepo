@@ -48,3 +48,79 @@ By entering a Jstris username, users can instantly view a streamlined overview o
 		 improvement of personal score or self analysis.</li>
  </ol>
 </p>
+
+<h1>🚀 TetrisHelper – Local Installation &amp; Setup Guide</h1>
+  <p class="lead">Convert of your original instructions into clean, copy‑pastable HTML.</p>
+
+  <div class="section">
+    <h2>📂 1. Get the Project</h2>
+    <ul>
+      <li>Clone or download this repo to your machine.</li>
+      <li><strong>Frontend files:</strong> <code>index.html</code>, <code>style.css</code>, <code>APIscripts.js</code>, <code>css-style-resetter.css</code> — deploy on Vercel or GitHub Pages.</li>
+      <li><strong>Backend files:</strong> <code>backend.js</code>, <code>backendProxy.js</code>, <code>leaderboardModel.js</code>, <code>proxy.js</code> — run on your server PC.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ 2. Install Requirements</h2>
+    <ol>
+      <li>Make sure Node.js (<code>&gt;=18</code>) is installed.</li>
+      <li>From the project root, install dependencies:</li>
+    </ol>
+    <pre><code>npm install</code></pre>
+    <p>This installs: <code>express</code>, <code>cors</code>, <code>dotenv</code>, <code>sqlite3</code>, <code>sequelize</code>, <code>node-fetch</code>.</p>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ 3. Configure Database</h2>
+    <ul>
+      <li>The backend uses SQLite and creates <code>leaderboard.sqlite</code> locally.</li>
+      <li>No extra setup is required unless you want to change DB settings (see <code>leaderboardModel.js</code>).</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>▶️ 4. Run the Backend</h2>
+    <p>Start the server:</p>
+    <pre><code>node api/backend.js</code></pre>
+    <ul>
+      <li>Runs on <code>http://localhost:8080</code> by default.</li>
+      <li class="endpoints"><strong>Endpoints:</strong>
+        <ul>
+          <li><code>/connect</code> — test server connection</li>
+          <li><code>/leaderboard</code> — view all leaderboard entries</li>
+          <li><code>/leaderboard/:username</code> — get player by username</li>
+          <li><code>/leaderboard/destroy/:username</code> — delete entry</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔀 5. Proxy Setup</h2>
+    <ul>
+      <li><code>backendProxy.js</code> / <code>proxy.js</code> forward API requests between frontend and backend.</li>
+      <li>Frontend calls look like:</li>
+    </ul>
+    <pre><code>https://&lt;your-vercel-domain&gt;/api/backendProxy?endpoint=leaderboard</code></pre>
+    <ul>
+      <li>Ensure Vercel routes <code>/api/*</code> to these proxy files.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🌐 6. Deploy the Frontend</h2>
+    <ul>
+      <li>Deploy <code>index.html</code>, CSS, and JS files to Vercel or GitHub Pages.</li>
+      <li>The frontend (<code>APIscripts.js</code>) fetches data via the backend proxy.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>✅ 7. Test Everything</h2>
+    <ol>
+      <li>Open your deployed frontend in the browser.</li>
+      <li>Check the console — you should see <em>Connection successful!</em></li>
+      <li>Try adding usernames — the leaderboard should update using your SQLite DB on the server PC.</li>
+    </ol>
+  </div>
